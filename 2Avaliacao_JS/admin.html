@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="contato.html">Contato</a>
+    <a href="admin.html">Área Administrativa</a>
+</nav>
+
+<h2>Login Administrativo</h2>
+
+<form id="formLogin">
+    <label>E-mail:</label>
+    <input type="email" id="email" required>
+
+    <label>Senha:</label>
+    <input type="password" id="senha" required>
+
+    <button type="submit">Entrar</button>
+</form>
+
+<p id="msgErro" class="erro"></p>
+
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/api.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="contato.html">Contato</a>
+    <a href="admin.html">Área Administrativa</a>
+</nav>
+
+<h2>Fale Conosco</h2>
+
+<form id="formContato">
+    <label>Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label>E-mail:</label>
+    <input type="email" id="email" required>
+
+    <label>Mensagem:</label>
+    <textarea id="mensagem" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<p id="msgSucesso" class="sucesso"></p>
+
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/api.js"></script>
+<script src="js/contato.js"></script>
+
+</body>
+</html>
